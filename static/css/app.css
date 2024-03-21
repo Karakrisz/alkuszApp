@@ -40,7 +40,7 @@ a {
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -173,10 +173,6 @@ ul {
     background: #001647;
 }
 
-.services-content {
-    padding: 3em 5em;
-}
-
 .page__header__h2,
 .page__header__h3,
 .service-box__title {
@@ -189,7 +185,7 @@ ul {
 }
 
 .page-link__img {
-    width: 3%;
+    width: 10%;
     top: .1em;
 }
 
@@ -252,20 +248,6 @@ ul {
     border-left: 0.12rem solid #000;
 }
 
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    z-index: 2;
-}
-
-.bar {
-    width: 33px;
-    height: 3px;
-    background-color: #fff;
-    margin: 3px 0;
-}
-
 .header-bottom {
     justify-content: space-between;
     padding: 0.7em 5em;
@@ -321,12 +303,24 @@ ul {
 
 /********************  Services formating start **********************/
 
-.servive-grid {
-    margin-bottom: 3em;
+.services-content {
+    padding: 8.5em 5em 3.5em 5em;
+}
+
+.servive-grid--margin-bottom {
+    margin-bottom: 6.5em;
 }
 
 .service-box {
     margin: 0.5em;
+    padding: 5em 1.5em 1.5em 1.5em;
+}
+
+.service-box__img {
+    width: 33%;
+    display: block;
+    margin: auto;
+    margin-top: -43%;
 }
 
 .service-bottom__box {
@@ -339,6 +333,15 @@ ul {
 .service-bottom__box__title {
     font-size: 2.5rem;
     margin: 0.7em 0;
+}
+
+.service-box__description {
+    margin-bottom: 3em;
+}
+
+.service-box__link-box {
+    bottom: 2em;
+    left: 34%;
 }
 
 
