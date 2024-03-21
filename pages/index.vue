@@ -194,5 +194,48 @@
       </div>
 
     </section>
+    <section>
+      <div class="blog-content">
+        <div class="page__header page__header--margin-top">
+          <h2 class="page__header__h2 text-color-w text-transform-uppercase">Blog</h2>
+        </div>
+        <div class="blog-grid grid-3">
+          <div class="blog-box">
+            <img class="blog-box__img" src="/img/blog/blog.svg" alt="Biztos Alkuszom">
+            <div class="blog-box__text position-relative">
+              <h3 class="blog-box__text__h3 text-transform-uppercase">Az Ön Teljes Útmutatója a Lakásbiztosítás Világában</h3>
+              <p class="blog-box__text__p">Fedezze fel, hogyan válassza ki a legmegfelelőbb lakásbiztosítást
+                életstílusához és igényeihez,
+                miközben megismeri a fedezetek és kedvezmények titkait.</p>
+              <div class="blog-box__link-box position-absolute">
+                <NuxtLink class="blog-box__link-box__Nuxtlink" to="/">Elolvasom a cikket</NuxtLink>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <img class="blog-box__img" src="/img/blog/blog1.svg" alt="Biztos Alkuszom">
+            <div class="blog-box__text position-relative">
+              <h3 class="blog-box__text__h3 text-transform-uppercase">Vállalkozók Biztosítási Kalauza: Hogyan Védje Meg Cégét</h3>
+              <p class="blog-box__text__p">Fedezze fel, hogyan válassza ki a legmegfelelőbb lakásbiztosítást
+                életstílusához és igényeihez,
+                miközben megismeri a fedezetek és kedvezmények titkait.</p>
+              <div class="blog-box__link-box position-absolute">
+                <NuxtLink class="blog-box__link-box__Nuxtlink" to="/">Elolvasom a cikket</NuxtLink>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box">
+            <img class="blog-box__img" src="/img/blog/blog3.svg" alt="Biztos Alkuszom">
+            <div class="blog-box__text position-relative">
+              <h3 class="blog-box__text__h3 text-transform-uppercase">Utazási Biztosítás: Miért Nélkülözhetetlen Minden Külföldi Út Során</h3>
+              <p class="blog-box__text__p">Ismerje meg az utazási biztosítás jelentőségét</p>
+              <div class="blog-box__link-box position-absolute">
+                <NuxtLink class="blog-box__link-box__Nuxtlink" to="/">Elolvasom a cikket</NuxtLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>

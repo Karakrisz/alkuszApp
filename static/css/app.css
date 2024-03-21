@@ -31,7 +31,9 @@ body {
     box-sizing: border-box;
 }
 
-h2 {
+h2,
+h3,
+h5 {
     margin: 0;
 }
 
@@ -149,12 +151,16 @@ ul {
 }
 
 
+/********************   Animation formating end **********************/
+
+
 /********************  Identical instructions start **********************/
 
 .page__header {
-    width: max-content;
+    width: 19%;
     padding: 0.7em 2.5em 0.7em 5em;
     margin: 1.5em 0 3em 0;
+    text-align: end;
 }
 
 .page__header--right {
@@ -190,16 +196,18 @@ ul {
 }
 
 .slider-content__img,
-.service-bottom__img {
+.service-bottom__img,
+.blog-box__img {
     width: 100%;
+}
+
+.slider-content__img,
+.service-bottom__img {
     height: 100%;
 }
 
 
 /********************  Identical instructions end **********************/
-
-
-/********************  Header formating start **********************/
 
 
 /********************  Header formating start **********************/
@@ -316,6 +324,10 @@ ul {
     padding: 5em 1.5em 1.5em 1.5em;
 }
 
+.service-box__title {
+    margin: 2em 0 0 0;
+}
+
 .service-box__img {
     width: 33%;
     display: block;
@@ -346,3 +358,65 @@ ul {
 
 
 /********************  Services formating end **********************/
+
+
+/********************  Blog formating start **********************/
+
+.blog-box {
+    margin: 0 .5em;
+}
+
+.blog-grid {
+    padding: 1em 5em;
+}
+
+.blog-box__text {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 14.7em;
+    padding: 1.5em;
+    margin-top: -5px;
+}
+
+.blog-box__text__h3 {
+    width: 90%;
+}
+
+.blog-box__text,
+.blog-box__link-box__Nuxtlink {
+    color: #001647;
+}
+
+.page__header--margin-top {
+    margin-top: -1.9em;
+    position: relative;
+}
+
+.blog-box__link-box {
+    bottom: 1.2em;
+}
+
+.blog-box__link-box__Nuxtlink {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+/********************  Blog formating end **********************/
+
+
+/********************  Footer formating start **********************/
+
+.footer-content {
+    background: #E2EFFF;
+    padding-top: 3.5em;
+}
+
+.footer-content__form {
+    margin: 0 5em;
+}
+
+
+/********************  Footer formating end **********************/
+
+
+/********************  Boaz formating end **********************/
