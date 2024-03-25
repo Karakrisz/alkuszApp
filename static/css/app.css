@@ -175,7 +175,8 @@ ul {
 .header-bottom,
 .page__header,
 .services-content,
-.page-link {
+.page-link,
+.footer-content__link-box {
     background: #001647;
 }
 
@@ -187,6 +188,11 @@ ul {
 
 .page-link {
     padding: 0.5em 1.5em;
+}
+
+.menu__item,
+.page-link,
+.footer-link {
     font-weight: 600;
 }
 
@@ -249,7 +255,6 @@ ul {
 
 .menu__item {
     padding-left: 2.5em;
-    font-weight: 600;
 }
 
 .menu__item--border-left {
@@ -265,7 +270,8 @@ ul {
     font-weight: 700;
 }
 
-.header-bottom__div__span {
+.header-bottom__div__span,
+.footer-content__link-box__DigitalSeed__Nuxtlink {
     font-weight: 400;
 }
 
@@ -382,7 +388,8 @@ ul {
 }
 
 .blog-box__text,
-.blog-box__link-box__Nuxtlink {
+.blog-box__link-box__Nuxtlink,
+.footer-content__link-box__DigitalSeed__Nuxtlink {
     color: #001647;
 }
 
@@ -413,6 +420,20 @@ ul {
 
 .footer-content__form {
     margin: 0 5em;
+}
+
+.footer-content__link-box {
+    margin: 7em 13em 0 13em;
+}
+
+.footer-link {
+    color: #fff;
+    padding-left: 2.5em;
+}
+
+.footer-content__link-box__DigitalSeed {
+    margin-top: 1em;
+    padding: .7em;
 }
 
 
